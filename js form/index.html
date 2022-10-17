@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JS Form</title>
+  </head>
+  <body>
+    <h1>Registration Form</h1>
+    <h2 id="msg" style="color: red"></h2>
+    <form name="reg-form" action="" method="GET">
+      <table>
+        <tr>
+          <td>Name :</td>
+          <td>
+            <input name="name" type="text" required />
+          </td>
+        </tr>
+        <tr>
+          <td>Email :</td>
+          <td>
+            <input name="email" type="text" />
+          </td>
+        </tr>
+        <tr>
+          <td>Password :</td>
+          <td>
+            <input name="password" type="password" />
+          </td>
+        </tr>
+        <tr>
+          <td>Confirm Password :</td>
+          <td>
+            <input name="confirm-p" type="password" />
+          </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>
+            <input name="submit-btn" type="submit" value="Registration" />
+          </td>
+        </tr>
+      </table>
+    </form>
+    <script src="index.js"></script>
+  </body>
+</html>
